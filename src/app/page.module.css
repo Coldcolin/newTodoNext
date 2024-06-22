@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+  background: rgb(135,134,187);
+  background: linear-gradient(144deg, rgba(135,134,187,1) 0%, rgba(220,206,240,1) 100%);
+}
+.formHolder{
+  width: 70%;
+  border-radius: 20px;
+  height: 90vh;
+  background-color: #935ABE;
+  overflow: hidden;
+  display: flex;
+}
+.leftPart{
+  background-color: #935ABE;
+background: linear-gradient(144deg, rgba(135,134,187,1) 0%, rgba(29,25,99,0.9528186274509804) 30%, rgba(135,134,187,1) 48%, rgba(35,21,64,0.9444152661064426) 68%, rgba(220,206,240,1) 100%);
+  width: 35%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+}
+.rightPart{
+  border-radius: 20px;
+  background-color: white;
+  width: 65%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.form{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: center;
+  /* padding-block: 50px; */
+}
+.inputsHolder{
+  width: 80%;
+  display: flex;
+  height: auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+.inputsHolder input{
+  flex: 1;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #d5d5d5;
+  outline: none;
+  padding-inline: 5px;
+  font-size: 18px;
+}
+
+.formButtonHolder{
+  width: 80%;
+  height: 50px;
+  
+}
+
+.formButtonHolder button{
+  width: 100%;
+  height: 100%;
+  color: white;
+  font-size: 20px;
+  background-color: #935ABE;
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.formButtonHolder button:hover{
+  background-color: #804ea6;
+}
